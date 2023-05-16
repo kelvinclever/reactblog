@@ -6,11 +6,11 @@ import Footer from './component/Footer'
 
 function App() {
   
-const explore="explore";
+
   return (
     
   <div className="app">
-      <Navbar explore={explore}/>
+      <Navbar/>
       <Container/>
       <Footer/>
     </div>

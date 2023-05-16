@@ -17,7 +17,7 @@ function Navbar({title,explore}){
             <span>J</span>
             <span>a</span>
          </div>
-        <button>{explore}</button>
+        <button>explore</button>
         </div>
     )
 }
