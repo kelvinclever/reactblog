@@ -1,0 +1,41 @@
+.leftside{
+    background-color: rgba(195, 121, 224, 0.548);
+    height: auto;
+    width: 65%;
+}
+.leftside h1{
+    background-color: rgba(128, 128, 128, 0.452);
+    text-align: center;
+}
+.leftside ul li {
+
+    border-bottom: 2px solid grey;
+    margin-right:2rem;
+    border-radius: 5px;
+}
+.leftside ul li:last-child{
+    border: none;
+
+    
+}
+.leftside ul{
+    list-style: none;
+   
+}
+.leftside ul li h2:first-child{
+    background-color: rgb(190, 182, 182);
+    text-align: center;
+    border-radius: 5px;
+    padding: 2px;
+    
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    *{
+        font-size: 1rem;
+    }
+    .leftside{
+        background-color: rgba(195, 121, 224, 0.548);
+        height: auto;
+        width: 100%;
+    }
+  }

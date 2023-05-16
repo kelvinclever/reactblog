@@ -1,0 +1,40 @@
+.rightside{
+    height: auto;
+    width:35%;
+    background-color: rgba(195, 121, 224, 0.548);
+}
+.rightside ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+.rightside ul li{
+ cursor: pointer;
+ border-bottom: 1px solid grey;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+
+}
+.rightside ul li:hover{
+    background-color: rgb(114, 111, 111);
+
+}
+.rightside h1{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.452);
+}
+.rightside ul li:last-child{
+    border: none;
+    
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .rightside{
+        height: auto;
+        width:100%;
+        background-color: rgba(195, 121, 224, 0.548);
+    }
+}

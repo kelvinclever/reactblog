@@ -1,0 +1,20 @@
+.container{
+  
+    display: flex;
+    flex-direction: row;
+   justify-content: center;
+   gap:2px;
+    background-color: rgba(128, 128, 128, 0.452);
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    /* CSS code for tablets */
+    .container{
+  
+        display: flex;
+        flex-direction:column;
+       justify-content: center;
+       width: 100%;
+       height: auto;
+        background-color: rgba(247, 10, 247, 0.267);
+    }
+  }
