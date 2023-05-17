@@ -15,7 +15,8 @@
  border-bottom: 1px solid grey;
  display: flex;
  justify-content: center;
- margin-top: 2px;
+ margin-top: 4px;
+ border-radius: 3px;
  text-align: center;
  box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
 -webkit-box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
