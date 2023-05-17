@@ -12,6 +12,7 @@
     border-bottom: 2px solid grey;
     margin-right:2rem;
     border-radius: 5px;
+    text-align: center;
     box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
     -webkit-box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
     -moz-box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
