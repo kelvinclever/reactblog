@@ -1,5 +1,5 @@
 import './navbar.css'
-function Navbar({title,explore}){
+function Navbar(){
     
  
     return(
