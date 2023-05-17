@@ -8,8 +8,11 @@
     gap:10rem;
     border-radius: 3px;
     background-color: rgba(174, 32, 240, 0.466);
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: -1px 7px 5px 1px rgba(200,188,204,0.75);
+    -webkit-box-shadow: -1px 7px 5px 1px rgba(200,188,204,0.75);
+    -moz-box-shadow: -1px 7px 5px 1px rgba(200,188,204,0.75);
     border-top: 1px solid  rgba(174, 32, 240, 0.466);
+
 }
 .nav button{
     background-color: rgba(128, 128, 128, 0.452);
