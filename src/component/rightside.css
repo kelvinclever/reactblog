@@ -16,6 +16,9 @@
  display: flex;
  justify-content: center;
  text-align: center;
+ box-shadow: -1px 7px 5px 1px rgba(200,188,204,0.75);
+-webkit-box-shadow: -1px 7px 5px 1px rgba(200,188,204,0.75);
+-moz-box-shadow: -1px 7px 5px 1px rgba(200,188,204,0.75);
 
 }
 .rightside ul li:hover{
