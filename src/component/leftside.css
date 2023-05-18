@@ -33,6 +33,42 @@
     padding: 2px;
     
 }
+.readmore span{
+    text-decoration: none;
+}
+.readmore{
+    text-decoration: none;
+    padding: 0.5rem 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.4) 12%,
+        rgba(255, 255, 255, 0.1) 77%
+      );
+      box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+   
+}
+.readmore:hover{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: black;
+    cursor: pointer;
+    background: linear-gradient(
+        50deg,
+        rgba(255, 255, 255, 0.63) 12%,
+        rgba(255, 255, 255, 0.247) 77%
+      );
+      box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+}
 @media screen and (min-width: 481px) and (max-width: 767px) {
     *{
         font-size: 1rem;
