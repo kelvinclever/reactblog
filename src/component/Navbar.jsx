@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import {FcHome} from 'react-icons/fc'
 import {FcInfo} from 'react-icons/fc'
 import {FaBook} from 'react-icons/fa'
-import './component/Navbar.css'
+import './navbar.css'
 
 const Navbar=()=>{
     return(
