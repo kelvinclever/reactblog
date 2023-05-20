@@ -1,0 +1,15 @@
+.notfound{
+    background-color: rgba(0, 0, 0, 0.13);
+    height: 80vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: beige;
+}
+.error{
+    text-decoration: none;
+    font-size: 3rem;
+    color:beige
+}

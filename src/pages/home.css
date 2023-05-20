@@ -1,60 +1,79 @@
-.head{
-    margin-left: 1rem;
-    width: 70%;
-    margin-top: 10rem;
-
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
-.head h1{
-    color: rgb(126, 124, 121);
-    align-items: center;
-    
-
-}
-.home{
-    height: 100vh;
-    width: auto;
+.home {
+    margin-top:1px;
     display: flex;
-    gap: 10rem;
-    margin-left: 3rem;
-    flex-direction: row;
-    
-}
-
-
-@media screen and (min-width: 481px) and (max-width: 967px) {
-    *{
-        width: 100%;
-       
-    }
-    .home{
-        gap:0px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 0;
-        margin-right: 1rem;
-        margin-left: 0;
-        height: auto;
-    }
-    .logos{
-        
-        margin-top:3rem;
-        width: auto;
-       
-    }
-    .logos img{
-        display: flex;
-        margin-top: 3rem;
-        width: 20rem;
-        height: auto;
-        justify-content: center;
-        margin-left: 5rem;
-    }
-    .head{
-       
-      margin-left: 4rem;
-      
-    }
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: vh;
+    background-color:rgba(0, 0, 0, 0.200);
+    padding: 1rem;
   }
-    
+  .blogs{
+    transform: scaleX(-1);
+    padding: 1rem;
+    position: absolute;
+    background-color: rgb(6, 114, 185);;
+
+    color: beige;
+    text-decoration: none;
+    font-size: 2rem;
+    border-radius: 5px;
+    font-weight: bolder;
+
+  }
+  .blogs:hover{
+
+    background-color:#4C3E60;;
+    color: beige;
+    transform:rotateX('45deg');
+  }
+  .logos {
+    align-items: center;
+    width: 50%;
+    height: auto;
+    margin-top:1px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    padding: 1rem;
+    transform: scaleX(-1);
+  }
+  .logos #animee {
+
+    height: 70vh;
+
+  }
+  
+  .head {
+   
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   border:1px solid #6d0df300;
+   text-decoration: none;
+   color: aliceblue;
+   font-size: 2rem;
+   border-radius: 5px;
+   font-weight: bolder;
+
+  }
+  
+  .head span {
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .head h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin: 0.5rem 0;
+  }
+  
+  .head p {
+    font-size: 1.2rem;
+    color: #fff;
+    margin-bottom: 0.5rem;
+  }
+  

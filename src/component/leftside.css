@@ -1,81 +1,46 @@
-.leftside{
-    background-color: rgba(195, 121, 224, 0.548);
-    height: auto;
-    width: 65%;
-}
-.leftside h1{
-    background-color: rgba(128, 128, 128, 0.452);
-    text-align: center;
-}
-.leftside ul li {
-
-    border-bottom: 2px solid grey;
-    margin-right:2rem;
-    border-radius: 5px;
-    text-align: center;
-    box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
-    -webkit-box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
-    -moz-box-shadow: 1px 7px 14px 2px rgba(71,69,71,1);
-}
-.leftside ul li:last-child{
-    border: none;
-
-    
-}
-.leftside ul{
-    list-style: none;
-   
-}
-.leftside ul li h2:first-child{
-    background-color: rgb(190, 182, 182);
-    text-align: center;
-    border-radius: 5px;
-    padding: 2px;
-    
-}
-.readmore span{
-    text-decoration: none;
-}
-.readmore{
-    text-decoration: none;
-    padding: 0.5rem 2rem;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: black;
-    cursor: pointer;
-    background: linear-gradient(
-        50deg,
-        rgba(255, 255, 255, 0.4) 12%,
-        rgba(255, 255, 255, 0.1) 77%
-      );
-      box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-   
-}
-.readmore:hover{
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
-    font-size: 1rem;
-    color: black;
-    cursor: pointer;
-    background: linear-gradient(
-        50deg,
-        rgba(255, 255, 255, 0.63) 12%,
-        rgba(255, 255, 255, 0.247) 77%
-      );
-      box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
-}
-@media screen and (min-width: 481px) and (max-width: 767px) {
-    *{
-        font-size: 1rem;
-    }
-    .leftside{
-        background-color: rgba(195, 121, 224, 0.548);
-        height: auto;
-        width: 100%;
-    }
+.leftside {
+    background-color: transparent;
+    color: #fff;
+    padding: 1rem;
   }
+  
+  .leftside h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .leftside ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .leftside li {
+    margin-bottom: 1.5rem;
+  }
+  
+  .leftside h2 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .leftside p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .leftside a.readmore {
+    display: inline-block;
+    background-color: #fff;
+    color: #4C3E60;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .leftside a.readmore:hover {
+    background-color: #fff;
+    color: #6C5090;
+  }
+  
