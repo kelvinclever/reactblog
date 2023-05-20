@@ -1,6 +1,10 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import './navbar.css'
+import {FcHome} from 'react-icons/fc'
+import {FcInfo} from 'react-icons/fc'
+import {FaBook} from 'react-icons/fa'
+import './component/Navbar.css'
+
 const Navbar=()=>{
     return(
         <div className="navbar">
@@ -23,9 +27,9 @@ const Navbar=()=>{
     </div></Link>   
         
         <div className="links"> 
-                <Link to="/" className="link">Home</Link>
-                <Link to="/blog" className="link">Blog</Link>
-                <Link to="/about" className="link">About</Link>
+                <Link to="/" className="link"><FcHome/>Home</Link>
+                <Link to="/blog" className="link"><FaBook/>Blog</Link>
+                <Link to="/about" className="link"><FcInfo/>About</Link>
        
          </div>
         

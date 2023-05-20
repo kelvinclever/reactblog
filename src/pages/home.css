@@ -1,0 +1,60 @@
+.head{
+    margin-left: 1rem;
+    width: 70%;
+    margin-top: 10rem;
+
+}
+.head h1{
+    color: rgb(126, 124, 121);
+    align-items: center;
+    
+
+}
+.home{
+    height: 100vh;
+    width: auto;
+    display: flex;
+    gap: 10rem;
+    margin-left: 3rem;
+    flex-direction: row;
+    
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 967px) {
+    *{
+        width: 100%;
+       
+    }
+    .home{
+        gap:0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 0;
+        margin-right: 1rem;
+        margin-left: 0;
+        height: auto;
+    }
+    .logos{
+        
+        margin-top:3rem;
+        width: auto;
+       
+    }
+    .logos img{
+        display: flex;
+        margin-top: 3rem;
+        width: 20rem;
+        height: auto;
+        justify-content: center;
+        margin-left: 5rem;
+    }
+    .head{
+       
+      margin-left: 4rem;
+      
+    }
+  }
+    
